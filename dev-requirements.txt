@@ -1,0 +1,8 @@
+-r requirements.txt
+responses==0.12.0
+st2client
+git+https://github.com/stackstorm/st2.git#egg=st2reactor&subdirectory=st2reactor
+git+https://github.com/stackstorm/st2.git#egg=st2common&subdirectory=st2common
+git+https://github.com/stackstorm/st2.git#egg=python_runner&subdirectory=contrib/runners/python_runner
+git+https://github.com/anirudhbagri/st2.git#egg=st2tests&subdirectory=st2tests
+sphinx
